@@ -69,9 +69,13 @@ What becomes easier or more difficult to do because of this change?
 HeyaLab/
 ├── VISION.md          # What Heya is and why it exists
 ├── ROADMAP.md         # Research phases and milestones
-├── ARCHITECTURE/      # Technical architecture documents (English)
-├── RESEARCH/          # Historical research documents (Chinese)
+├── METHODOLOGY.md     # R&D methodology framework (HRDF-1.0)
+├── ARCHITECTURE/      # Technical architecture documents (factory-era)
+├── RESEARCH/          # Historical research reports (English)
 ├── DECISIONS/         # Architecture Decision Records
+├── PAPERS/            # Academic paper library (252 papers)
+├── EVOLVE/            # Evolution lab (brainstorms & proposals)
+├── heya2u/            # Formal design documents (Hearth + Hey paradigm)
 ├── docs/              # Additional documentation
 └── CONTRIBUTING.md    # This file
 ```
@@ -80,7 +84,7 @@ HeyaLab/
 
 ## Guidelines
 
-- **Language**: Architecture documents and ADRs are in English. Research documents are in Chinese.
+- **Language**: All documents are in English.
 - **Tone**: Direct and precise. Avoid hedging ("maybe", "perhaps", "we could consider").
 - **Evidence**: Back up claims with reasoning, data, or references.
 - **Consistency**: Read existing documents before writing new ones. Use established terminology.

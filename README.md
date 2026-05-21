@@ -1,12 +1,12 @@
 # HeyaLab
 
-> **Describe what you want to create. Heya designs the factory. Together, you build anything.**
+> **Describe what you want to create. Heya grows with you. Together, anything emerges.**
 
 ---
 
 ## What is Heya?
 
-Heya is an **AI Factory** — an AI that organizes itself into a purpose-built creation system, with humans guiding the critical decisions.
+Heya is a **creation ecosystem — a space where AI agents invent capabilities within boundaries, and a companion (Hey) grows alongside you** — with humans guiding the critical decisions.
 
 **Read the full vision**: [VISION.md](./VISION.md)
 
@@ -48,14 +48,16 @@ HeyaLab/
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to propose ideas, challenge decisions, contribute |
 | [ARCHITECTURE/](./ARCHITECTURE/) | Full technical architecture documentation |
 | [DECISIONS/](./DECISIONS/) | Architecture Decision Records |
+| [heya2u/](./heya2u/) | Formal design documents (Hearth + Hey paradigm) |
+| [ADR-007](./DECISIONS/007-hearth-ecosystem-paradigm.md) | Paradigm shift from Factory to Hearth ecosystem |
 
 ---
 
 ## Current Status
 
-**Phase**: Architecture Redesign (In Progress)
+**Phase**: Paradigm Shift Complete
 
-See [ROADMAP.md](./ROADMAP.md) for the full timeline.
+The project has completed its paradigm shift from the AI Factory model to the Hearth ecosystem model. See [ADR-007](./DECISIONS/007-hearth-ecosystem-paradigm.md) for the full decision record and rationale.
 
 ---
 
@@ -74,4 +76,4 @@ Heya is licensed under the [GNU General Public License v3.0](./LICENSE).
 
 ---
 
-> *"Describe what you want to create. Heya designs the factory. Together, you build anything."*
+> *"Describe what you want to create. Heya grows with you. Together, anything emerges."*

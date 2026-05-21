@@ -1,12 +1,12 @@
 # Heya Roadmap
 
-> This document tracks the research and development progress of the Heya AI Factory.
+> This document tracks the research and development progress of the Heya creation ecosystem.
 
 ---
 
 ## Product Tree Strategy
 
-Heya is not built directly. Instead, we iterate through a **product tree** — each product validates specific capabilities that eventually converge into HeyaCore.
+Heya is not built directly. Instead, we iterate through a **product tree** — each product validates specific capabilities that eventually converge into HeyaCore, the universal creation ecosystem.
 
 ```mermaid
 graph TD
@@ -16,7 +16,7 @@ graph TD
     TD[247Dude<br/>Long-Running Tasks] --> G
     Van --> H[Product G<br/>Capability Fusion]
     G --> H
-    H --> HC[HeyaCore<br/>The AI Factory]
+    H --> HC[HeyaCore<br/>The Creation Ecosystem]
     TD --> I[Product H<br/>Unknown]
     I --> HC
 
@@ -60,18 +60,18 @@ graph TD
 
 **Status**: In Progress
 
-**Goal**: Redefine Heya as an "AI Factory" with a human-AI hybrid model.
+**Goal**: Redefine Heya as the Hearth ecosystem with a human-AI partnership model.
 
 **Deliverables:**
-- [x] Factory metaphor definition
+- [x] Hearth ecosystem paradigm definition
 - [x] Core concept document
 - [x] System architecture design
 - [x] Core contract specifications
-- [x] Factory design guide
+- [x] Hearth design guide
 - [x] API reference
 - [x] Vision document
-- [ ] Decision records (ADR)
-- [ ] Update remaining docs for consistency
+- [x] Decision records (ADR)
+- [x] Update remaining docs for consistency
 
 **Output**: See [ARCHITECTURE/](./ARCHITECTURE/) for all architecture documents.
 
@@ -94,11 +94,11 @@ graph TD
 - [ ] Stability-plasticity rules: what can change, what requires validation
 - [ ] Memory schema (JSON)
 
-**Factory SOP Encoding Format** (based on MetaGPT)
-- [ ] Pipeline step definition format (role, input, output, verification)
-- [ ] Structured communication protocol between steps
-- [ ] Intermediate verification gates
-- [ ] Factory template format for common patterns
+**Component Creation Protocol** (based on MetaGPT)
+- [ ] Component invention process (role, input, output, emergence)
+- [ ] Interaction protocol between components
+- [ ] Emergent pattern detection
+- [ ] Boundary definitions for common patterns
 
 **Human Checkpoint Protocol** (based on Reflexion, AutoGen)
 - [ ] Checkpoint type definitions (design_approval, architecture_decision, critical_output, direction_change, budget_alert)
@@ -112,16 +112,16 @@ graph TD
 - [ ] Auto-fix policy: when and how AI can fix issues without human input
 - [ ] Verification result schema
 
-**Self-Evolution Framework** (based on Self-Evolving Agents Survey, MemRL)
+**Emergence and Evolution Framework** (based on Self-Evolving Agents Survey, MemRL)
 - [ ] Feedback loop: Inputs → Agent → Environment → Optimiser
 - [ ] Metacognition signals and response actions
-- [ ] Factory evolution triggers and approval process
+- [ ] Component evolution triggers and natural selection
 - [ ] Memory-based learning protocol (no weight updates)
 
 **MVP Scope Definition**
-- [ ] Define minimum viable factory capabilities
-- [ ] Define minimum viable memory system
-- [ ] Define minimum viable verification pipeline
+- [ ] Define minimum viable Hearth capabilities
+- [ ] Define minimum viable Hey memory
+- [ ] Define minimum viable emergence verification
 - [ ] Define minimum viable human checkpoint types
 - [ ] Technology stack selection for MVP
 
@@ -147,13 +147,13 @@ graph TD
 
 **Status**: Future
 
-**Goal**: Build the minimum viable Heya Factory.
+**Goal**: Build the minimum viable Heya ecosystem (Hearth + Hey).
 
 **Scope** (to be defined in Phase 3):
-- Conversational factory design
-- Basic WorkOrder execution
+- Conversational Hearth space activation
+- Basic component invention and interaction
 - Simple verification (compile + test)
-- Project-level memory (PostgreSQL)
+- Project-level memory for both Hearth and Hey (PostgreSQL)
 - Human checkpoints (at least 2 types)
 - Single model provider (OpenAI or Anthropic)
 
@@ -174,11 +174,12 @@ See [DECISIONS/](./DECISIONS/) for the full decision log.
 
 | # | Decision | Date | Status |
 |---|----------|------|--------|
-| 001 | Heya is an AI Factory | 2026-05-15 | Accepted |
+| 001 | Heya is an AI Factory | 2026-05-15 | Superseded by 007 |
 | 002 | AI is the factory (not a tool inside it) | 2026-05-15 | Accepted |
 | 003 | Human-AI hybrid execution model | 2026-05-15 | Accepted |
 | 004 | Intent-driven factory design | 2026-05-15 | Accepted |
 | 005 | Universal product scope | 2026-05-15 | Accepted |
+| 007 | Hearth ecosystem paradigm (supersedes ADR-001) | 2026-05-22 | Accepted |
 
 ---
 
@@ -186,7 +187,7 @@ See [DECISIONS/](./DECISIONS/) for the full decision log.
 
 ```mermaid
 gantt
-    title Heya Development Timeline
+    title Heya Development Timeline (Hearth + Hey Ecosystem)
     dateFormat  YYYY-MM-DD
     axisFormat  %Y-%m
 

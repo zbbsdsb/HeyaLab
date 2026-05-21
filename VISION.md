@@ -1,12 +1,12 @@
 # Heya Vision
 
-> **Describe what you want to create. Heya designs the factory. Together, you build anything.**
+> **Describe what you want to create. Heya grows with you. Together, anything emerges.**
 
 ---
 
 ## What is Heya?
 
-Heya is an **AI Factory** — an AI that organizes itself into a purpose-built creation system, with humans guiding the critical decisions.
+Heya is a **creation ecosystem** — a space where AI agents invent capabilities within boundaries, and a companion (Hey) grows alongside you, with humans guiding the critical decisions.
 
 Heya is not:
 - A chatbot
@@ -15,9 +15,9 @@ Heya is not:
 - A configuration system
 
 Heya is:
-- An AI that **transforms itself** based on what you want to build
-- A **human-AI hybrid** where AI proposes and humans decide
-- A **universal creation system** that can produce any type of product
+- An AI that **invents and evolves** based on what you want to build
+- A **human-AI partnership** where AI proposes and humans decide
+- A **universal creation space** that can produce any type of product
 
 ---
 
@@ -29,21 +29,21 @@ The AI does the heavy lifting — reasoning, generating, verifying, remembering.
 
 **The AI never silently makes a high-stakes decision.**
 
-### 2. AI Is the Factory
+### 2. AI Is the Hearth
 
-The factory isn't a container for AI. The AI transforms itself into the factory. It assembles different capability combinations for different tasks. The same AI can be a "game engine factory" or a "marketing strategy factory."
+The Hearth is a creation space where agents invent components on demand and capabilities evolve through use. It assembles different capability combinations for different tasks. The same Hearth can nurture a game, a marketing strategy, or a scientific simulation.
 
 ### 3. Intent-Driven Design
 
-Users describe what they want in natural language. The AI derives the factory structure — capabilities, tools, verification, memory, checkpoints. Configuration files are internal representations, not user interfaces.
+Users describe what they want in natural language. Hearth activates boundaries and agents invent the necessary components. The structure emerges from intent — capabilities, tools, verification, memory, checkpoints. Configuration files are internal representations, not user interfaces.
 
 ### 4. Universal Product Scope
 
-Factories can create anything: software, designs, content, strategies, knowledge, physical specs. The factory adapts its capabilities to the product type.
+Hearth can nurture the creation of anything: software, designs, content, strategies, knowledge, physical specs. The Hearth adapts its capabilities to the product type.
 
 ### 5. Project-Level Memory
 
-Factories remember everything across sessions — decisions, failures, patterns, human preferences. The factory gets smarter the more you use it.
+The ecosystem remembers everything across sessions — decisions, failures, patterns, human preferences. The ecosystem gets richer the more you use it.
 
 ### 6. Verified Artifacts
 
@@ -51,25 +51,31 @@ Every output is traceable, automatically verified, and human-approved. Nothing i
 
 ---
 
-## The Factory Metaphor
+## The Hearth Ecosystem
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                     PRODUCTS                             │
+│                     CREATIONS                            │
 │    Software • Designs • Content • Strategies             │
 │    Knowledge • Physical specs • Anything                 │
 └─────────────────────────────────────────────────────────┘
-                           ↑ created by
+                           ↑ nurtured by
 ┌─────────────────────────────────────────────────────────┐
-│                      FACTORY                             │
-│    AI organized into:                                    │
+│                       HEARTH                             │
+│    A creation space where agents invent:                  │
 │    Reasoning • Memory • Verification • Tools             │
-│    Human checkpoints • Self-evolution                    │
+│    Human checkpoints • Emergent evolution                 │
+└─────────────────────────────────────────────────────────┘
+                           ↑ guided by
+┌─────────────────────────────────────────────────────────┐
+│                        HEY                               │
+│    Your AI companion that grows alongside you,           │
+│    learning your preferences and amplifying your intent  │
 └─────────────────────────────────────────────────────────┘
                            ↑ powered by
 ┌─────────────────────────────────────────────────────────┐
-│                   INFRASTRUCTURE                          │
-│    Models • Storage • Compute • Network                   │
+│                    FOUNDATION                            │
+│    Models • Storage • Compute • Network                  │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -86,7 +92,7 @@ Existing AI tools have fundamental limitations:
 | Dify / FastGPT | Manual workflow config, no AI-driven design |
 | Devin | Autonomous, minimal human oversight, code-only |
 
-Heya is the only system where AI **organizes itself** into a factory, creates **any type of product**, and maintains **structured human-AI collaboration** throughout.
+Heya is the only system where AI **invents capabilities** within a living ecosystem, creates **any type of product** through emergence, and maintains a **companion** that grows with you through structured human-AI partnership.
 
 ---
 
@@ -98,7 +104,7 @@ These principles will never be compromised:
 2. **The AI must explain its reasoning** before asking for approval
 3. **All outputs must be verified** before being presented as "done"
 4. **Memory must be project-level** and persist across sessions
-5. **The factory design must be derived from intent**, not manually configured
+5. **The creation structure must emerge from intent**, not manually configured
 6. **Infrastructure must be replaceable** — no lock-in to any specific model or service
 
 ---
@@ -107,7 +113,7 @@ These principles will never be compromised:
 
 Heya is successful when:
 
-- A user can describe a complex goal in natural language and get a working factory in under 60 seconds
-- The factory produces verified, human-approved artifacts
-- The factory gets measurably better over time (success rate, cost efficiency, human correction rate)
-- A factory designed for one domain can be adapted to a different domain with minimal changes
+- A user can describe a complex goal in natural language and get a living Hearth ecosystem in under 60 seconds
+- The ecosystem produces verified, human-approved artifacts
+- The ecosystem gets measurably richer over time (success rate, cost efficiency, human correction rate)
+- A Hearth designed for one domain can be adapted to a different domain with minimal changes

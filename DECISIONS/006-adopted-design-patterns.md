@@ -2,6 +2,8 @@
 
 **Date**: 2026-05-15
 **Status**: Accepted
+
+> **Note**: Items 1 (SOP Encoding for Factory Pipelines) and the rejection of "Emergent Social Behavior" (item 3) may need reconsideration under the Hearth ecosystem paradigm documented in [ADR-007](./007-hearth-ecosystem-paradigm.md). A future ADR will address whether these patterns should be adapted or reconsidered.
 **References**: [RESEARCH/SYNTHESIS.md](../RESEARCH/SYNTHESIS.md)
 
 ## Context

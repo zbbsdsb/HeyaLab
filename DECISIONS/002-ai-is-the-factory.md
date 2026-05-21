@@ -3,6 +3,8 @@
 **Date**: 2026-05-15
 **Status**: Accepted
 
+> **Note**: The terminology in this ADR reflects the original factory metaphor. See [ADR-007](./007-hearth-ecosystem-paradigm.md) for the current paradigm. The core principle — that AI transforms itself based on user intent rather than being a static tool — remains valid.
+
 ## Context
 
 We debated whether the factory is a container that holds AI tools, or whether the AI itself transforms into the factory.

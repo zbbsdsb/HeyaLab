@@ -1,7 +1,7 @@
 # ADR-001: Heya is an AI Factory
 
 **Date**: 2026-05-15
-**Status**: Accepted
+**Status**: Superseded by [ADR-007](./007-hearth-ecosystem-paradigm.md)
 
 ## Context
 
@@ -23,3 +23,7 @@ Heya is defined as an **AI Factory** — a system where users design factories w
 - All documentation and communication should use the factory metaphor consistently
 - The metaphor should not be over-stretched (e.g., don't call memory a "warehouse" just for the sake of the metaphor)
 - When the metaphor doesn't fit, use plain technical language instead
+
+---
+
+> **Note**: This ADR defined the original "AI Factory" metaphor. It has been superseded by [ADR-007](./007-hearth-ecosystem-paradigm.md), which documents the paradigm shift to the "Hearth ecosystem" model. The factory metaphor served its purpose during initial architecture definition but was replaced as the design matured to embrace emergence, invention, and companion relationships.
