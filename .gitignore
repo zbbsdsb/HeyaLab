@@ -1,0 +1,8 @@
+prepare/
+
+# Trae IDE internal documents (not part of project)
+.trae/documents/
+
+# Binary files - only .xlsx allowed
+*.pptx
+*.ppt

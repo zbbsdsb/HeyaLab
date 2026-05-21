@@ -1,0 +1,102 @@
+[
+  {
+    "category": "AI记忆系统",
+    "file": "01-memory-systems.md",
+    "architecture": "Phase 3: Memory Layer",
+    "total": 21,
+    "P0": 4,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 17
+  },
+  {
+    "category": "多智能体协调",
+    "file": "02-multi-agent-coordination.md",
+    "architecture": "Phase 3: Agent Mesh",
+    "total": 26,
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 26
+  },
+  {
+    "category": "AI安全与工具",
+    "file": "03-ai-safety-and-tools.md",
+    "architecture": "Phase 3: Safety Layer + Tool Use",
+    "total": 30,
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 30
+  },
+  {
+    "category": "意图理解与任务规划",
+    "file": "04-intent-planning.md",
+    "architecture": "Factory Designer, ADR-004",
+    "total": 12,
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 12
+  },
+  {
+    "category": "自我进化与元学习",
+    "file": "05-self-evolution-meta-learning.md",
+    "architecture": "P001-P003, P013-P015",
+    "total": 20,
+    "P0": 2,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 18
+  },
+  {
+    "category": "人机协作与认知负荷",
+    "file": "06-human-ai-collaboration.md",
+    "architecture": "P010-P012, ADR-003",
+    "total": 25,
+    "P0": 3,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 22
+  },
+  {
+    "category": "工作流编排与流水线",
+    "file": "07-workflow-orchestration.md",
+    "architecture": "Factory Pipeline, SOP编码",
+    "total": 13,
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 13
+  },
+  {
+    "category": "知识迁移与跨域学习",
+    "file": "08-knowledge-transfer.md",
+    "architecture": "P014-P015",
+    "total": 14,
+    "P0": 1,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 13
+  },
+  {
+    "category": "神经科学基础",
+    "file": "09-neuroscience-foundations.md",
+    "architecture": "Memory Layer, Agent Mesh, 认知架构",
+    "total": 52,
+    "P0": 12,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 40
+  },
+  {
+    "category": "软件工程与系统架构",
+    "file": "11-software-engineering-patterns.md",
+    "architecture": "Factory Runtime, Verification, SPI, Self-Evolution",
+    "total": 39,
+    "P0": 4,
+    "P1": 0,
+    "P2": 0,
+    "unrated": 35
+  }
+]
