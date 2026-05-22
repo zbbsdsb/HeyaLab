@@ -6,7 +6,7 @@
 
 ## What is Heya?
 
-Heya is a **creation ecosystem** — a space where AI agents invent capabilities within boundaries, and a companion (Hey) grows alongside you, with humans guiding the critical decisions.
+Heya is a **creation ecosystem** — a space where AI agents invent capabilities within boundaries, a companion (Hey) grows alongside you, and every creation finds its home (Mantle). Humans guide the critical decisions.
 
 Heya is not:
 - A chatbot
@@ -18,6 +18,7 @@ Heya is:
 - An AI that **invents and evolves** based on what you want to build
 - A **human-AI partnership** where AI proposes and humans decide
 - A **universal creation space** that can produce any type of product
+- An ecosystem where **ideas (Ember)** become **creations (Hearth)** become **artifacts (Mantle)**
 
 ---
 
@@ -47,36 +48,57 @@ The ecosystem remembers everything across sessions — decisions, failures, patt
 
 ### 6. Verified Artifacts
 
-Every output is traceable, automatically verified, and human-approved. Nothing is considered "done" until it passes checks and gets the green light.
+Every output is traceable, automatically verified, and human-approved. Nothing is considered "done" until it passes checks and gets the green light. All artifacts find their home in Mantle with full lineage.
+
+### 7. Seed Before Fire
+
+Not every idea is ready to become a project. Ember captures creative visions as living seeds that grow, branch, and combine — igniting into Hearth projects when the time is right.
+
+### 8. Perception, Not Overwhelming
+
+The ecosystem's internal complexity is enormous. Veil adapts to each user, revealing what matters and hiding what doesn't. A novice sees a progress bar; an architect sees the full component graph.
 
 ---
 
 ## The Hearth Ecosystem
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     CREATIONS                            │
-│    Software • Designs • Content • Strategies             │
-│    Knowledge • Physical specs • Anything                 │
-└─────────────────────────────────────────────────────────┘
-                           ↑ nurtured by
-┌─────────────────────────────────────────────────────────┐
-│                       HEARTH                             │
-│    A creation space where agents invent:                  │
-│    Reasoning • Memory • Verification • Tools             │
-│    Human checkpoints • Emergent evolution                 │
-└─────────────────────────────────────────────────────────┘
-                           ↑ guided by
-┌─────────────────────────────────────────────────────────┐
-│                        HEY                               │
-│    Your AI companion that grows alongside you,           │
-│    learning your preferences and amplifying your intent  │
-└─────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                         CREATIONS                                │
+│    Software • Designs • Content • Strategies                     │
+│    Knowledge • Physical specs • Anything                         │
+└─────────────────────────────────────────────────────────────────┘
+                           ↑ preserved in
+┌─────────────────────────────────────────────────────────────────┐
+│                        MANTLE                                    │
+│    The artifact home where every creation lives                   │
+│    with full lineage, versioning, and evolution                  │
+└─────────────────────────────────────────────────────────────────┘
+                           ↑ produced by
+┌─────────────────────────────────────────────────────────────────┐
+│                       HEARTH                                     │
+│    A creation space where agents invent:                          │
+│    Reasoning • Memory • Verification • Tools                     │
+│    Human checkpoints • Emergent evolution                         │
+└─────────────────────────────────────────────────────────────────┘
+              ↑ feeds intent          ↑ guided by          ↑ observes
+┌──────────────────────┐  ┌──────────────────────┐  ┌──────────────────────┐
+│       EMBER          │  │         HEY          │  │        VEIL          │
+│  Creative seeds that │  │  Your AI companion   │  │  Perception layer    │
+│  grow into projects  │  │  that grows with you │  │  that reveals what   │
+│                      │  │                      │  │  matters to you      │
+└──────────────────────┘  └──────────────────────┘  └──────────────────────┘
+                                                           ↑ connects
+                                              ┌──────────────────────┐
+                                              │        GROVE         │
+                                              │  Shared space where  │
+                                              │  creators collaborate│
+                                              └──────────────────────┘
                            ↑ powered by
-┌─────────────────────────────────────────────────────────┐
-│                    FOUNDATION                            │
-│    Models • Storage • Compute • Network                  │
-└─────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                    FOUNDATION                                    │
+│    Models • Storage • Compute • Network                          │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -92,7 +114,7 @@ Existing AI tools have fundamental limitations:
 | Dify / FastGPT | Manual workflow config, no AI-driven design |
 | Devin | Autonomous, minimal human oversight, code-only |
 
-Heya is the only system where AI **invents capabilities** within a living ecosystem, creates **any type of product** through emergence, and maintains a **companion** that grows with you through structured human-AI partnership.
+Heya is the only system where AI **invents capabilities** within a living ecosystem, creates **any type of product** through emergence, maintains a **companion** that grows with you through structured human-AI partnership, and provides a **home for every creation** with full lineage and evolution.
 
 ---
 

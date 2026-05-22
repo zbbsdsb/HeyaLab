@@ -7,42 +7,66 @@
 
 ## Heya Architecture Overview
 
-Heya consists of three core components:
+Heya consists of six core components, organized around the Hearth metaphor:
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                        Heya                              │
-├─────────────────────────────────────────────────────────┤
-│  Hearth (Core)                                          │
-│  - The creation engine                                  │
-│  - Users can operate directly OR through Hey             │
-│  - Creates artifacts, executes workflows                 │
-├─────────────────────────────────────────────────────────┤
-│  Hey (Companion)                                         │
-│  - User's AI companion                                   │
-│  - Grows, accompanies, and witnesses                     │
-│  - Can invoke Agents on behalf of the user               │
-│  - Optional but recommended                              │
-├─────────────────────────────────────────────────────────┤
-│  Agents (Tools)                                          │
-│  - Executed by Hearth or invoked by Hey                 │
-│  - Perform specific tasks                                │
-│  - Stateless, replaceable                                │
-└─────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                            HEYA ECOSYSTEM                                │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                 │
+│  │    HEARTH    │  │     HEY      │  │    MANTLE    │                 │
+│  │  Creation    │  │  Companion   │  │  Artifacts   │                 │
+│  │  Space       │  │              │  │  Home        │                 │
+│  │              │  │              │  │              │                 │
+│  │  Where agents│  │  Your AI     │  │  Where what  │                 │
+│  │  invent and  │  │  partner who │  │  has been    │                 │
+│  │  capabilities│  │  grows with  │  │  created is  │                 │
+│  │  emerge      │  │  you         │  │  preserved   │                 │
+│  └──────────────┘  └──────────────┘  └──────────────┘                 │
+│                                                                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                 │
+│  │     VEIL     │  │    EMBER     │  │    GROVE     │                 │
+│  │  Perception  │  │  Creative    │  │  Shared      │                 │
+│  │  Layer       │  │  Seeds       │  │  Space       │                 │
+│  │              │  │              │  │              │                 │
+│  │  How you see │  │  Where ideas │  │  Where       │                 │
+│  │  and         │  │  live before │  │  creators    │                 │
+│  │  understand  │  │  they become │  │  collaborate │                 │
+│  │  the system  │  │  projects    │  │  and share   │                 │
+│  └──────────────┘  └──────────────┘  └──────────────┘                 │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Component Relationships
+
+```
+Ember ──feeds intent──► Hearth ──produces──► Mantle
+                           │
+Veil ◄──observes──────────┘
+                           │
+Grove ◄──connects──────────┘ (multi-instance)
+
+Hey ──coordinates──► Hearth
+Hey ──nurtures──► Ember
+Hey ──presents──► Veil
 ```
 
 ### Key Relationships
 
-| Component | Role | Relationship |
-|-----------|------|--------------|
-| **Hearth** | Core creation engine | Users can use directly; Hey can coordinate |
-| **Hey** | Companion | Optional layer that adds relationship and continuity |
-| **Agents** | Execution units | Tools that Hearth or Hey can invoke |
+| Component | Role | Analogy |
+|-----------|------|---------|
+| **Hearth** | Core creation space | The hearth fire where creation happens |
+| **Hey** | User's AI companion | Your partner sitting by the hearth |
+| **Mantle** | Artifact home | The shelf above the hearth where creations are displayed |
+| **Veil** | Perception layer | The shimmering air that reveals what matters |
+| **Ember** | Creative seeds | Glowing remnants with potential to ignite new creations |
+| **Grove** | Shared space | A gathering of hearths where community forms |
 
-**Analogy:**
-- Hearth = The hearth fire where creation happens—warm, central, alive
-- Hey = Your partner/brother sitting by the hearth with you
-- Agents = Hired helpers that either you or Hey can call upon
+### Agents
+
+Agents are sub-components of Hearth — stateless, replaceable execution units that invent components within Hearth's boundaries. They are the evolving life within the creation space.
 
 ---
 
@@ -73,14 +97,32 @@ HeyaCore consists of two parts:
 
 ## Document Index
 
+### Core Components
+
 | Document | Content | Status |
 |----------|---------|--------|
-| [hey/](./hey/) | Hey - User's AI companion | 🔄 In Design |
+| [hearth/](./hearth/) | Hearth — The creation space | ✅ Complete |
+| [hearth/ARCHITECTURE.md](./hearth/ARCHITECTURE.md) | Core architecture and subsystems | ✅ Complete |
+| [hearth/BOUNDARIES.md](./hearth/BOUNDARIES.md) | Boundary types and enforcement | ✅ Complete |
+| [hearth/COMPONENT-CREATION.md](./hearth/COMPONENT-CREATION.md) | How agents invent components | ✅ Complete |
+| [hearth/EMERGENCE.md](./hearth/EMERGENCE.md) | How patterns self-organize | ✅ Complete |
+| [hearth/EVOLUTION.md](./hearth/EVOLUTION.md) | Component fitness and selection | ✅ Complete |
+| [hearth/STATE.md](./hearth/STATE.md) | Shared state and memory | ✅ Complete |
+| [hearth/INTERFACES.md](./hearth/INTERFACES.md) | User, Hey, and Agent interfaces | ✅ Complete |
+| [hey/](./hey/) | Hey — User's AI companion | 🔄 In Design |
 | [hey/OASIS-HEY-PROTOCOL.md](./hey/OASIS-HEY-PROTOCOL.md) | The covenant between user and Hey | ✅ Complete |
 | [hey/MEMORY-SYSTEM.md](./hey/MEMORY-SYSTEM.md) | Hey's graph-routed memory system | ✅ Complete |
-| (TBD) | Hearth Core Design | ⏳ Pending |
-| (TBD) | Agent System Design | ⏳ Pending |
-| (TBD) | Boundary Definition | ⏳ Pending |
+| [mantle/](./mantle/) | Mantle — The artifact home | ✅ Complete |
+| [veil/](./veil/) | Veil — The perception layer | ✅ Complete |
+| [ember/](./ember/) | Ember — The creative seeds | ✅ Complete |
+| [grove/](./grove/) | Grove — The shared space | ✅ Complete |
+
+### Decision Records
+
+| ADR | Decision | Status |
+|-----|----------|--------|
+| [007](../DECISIONS/007-hearth-ecosystem-paradigm.md) | Hearth ecosystem paradigm | ✅ Accepted |
+| [008](../DECISIONS/008-four-complementary-components.md) | Four complementary components | ✅ Accepted |
 
 ---
 
@@ -88,10 +130,13 @@ HeyaCore consists of two parts:
 
 1. **Hearth First**: The core creation capability is paramount
 2. **Companion Layer**: Hey adds relationship and continuity, but is optional
-3. **Flexible Interaction**: Users can work directly with Hearth or through Hey
-4. **Natural Language Driven**: Everything defined and operated through natural language
-5. **Continuous Evolution**: System improves through usage
-6. **Community Built**: Design documents are open; community participates in development
+3. **Artifact Native**: Mantle gives creations a first-class home
+4. **Perception Adaptive**: Veil reveals what matters, hides what doesn't
+5. **Seed Before Fire**: Ember captures ideas before they become projects
+6. **Community When Ready**: Grove enables collaboration without forcing it
+7. **Natural Language Driven**: Everything defined and operated through natural language
+8. **Continuous Evolution**: System improves through usage
+9. **Community Built**: Design documents are open; community participates in development
 
 ---
 
@@ -101,7 +146,7 @@ Heya supports multiple usage modes:
 
 ### Mode 1: Direct Hearth (Power Users)
 ```
-User ↔ Hearth → Artifacts
+User ↔ Hearth → Mantle
 ```
 - User operates Hearth directly
 - Full control, maximum efficiency
@@ -109,23 +154,40 @@ User ↔ Hearth → Artifacts
 
 ### Mode 2: With Hey (Recommended)
 ```
-User ↔ Hey ↔ Hearth → Artifacts
+User ↔ Hey ↔ Hearth → Mantle
         ↓
-     Agents
+     Ember (creative seeds)
+     Veil (perception)
 ```
 - User works with Hey as companion
-- Hey can invoke Agents and coordinate Hearth
+- Hey coordinates Hearth, nurtures Ember, presents via Veil
 - Relationship, memory, and continuity
 
-### Mode 3: Hybrid
+### Mode 3: Collaborative (With Grove)
 ```
-User → Hearth (direct for some tasks)
-  ↓
-Hey → Hearth (for complex workflows)
+User A ↔ Hey A ─┐
+                ├─► Shared Hearth → Shared Mantle
+User B ↔ Hey B ─┘        ↓
+                    Grove (community)
 ```
-- User chooses per-task whether to use Hey
-- Seamless switching between modes
+- Multiple users co-create in shared spaces
+- Artifacts and seeds flow between ecosystems
+- Community discovery and learning
 
 ---
 
-*Last Updated: 2026-05-18*
+## MVP Priority
+
+Components in implementation priority order:
+
+| Priority | Component | Rationale |
+|----------|-----------|-----------|
+| 1 | Hearth | Core creation — the fire itself |
+| 2 | Mantle | Artifact storage — essential for any usable product |
+| 3 | Ember | Creative seeds — significantly enhances user experience |
+| 4 | Veil | Visualization — can start minimal, grow over time |
+| 5 | Grove | Collaboration — post-MVP, requires multi-user infrastructure |
+
+---
+
+*Last Updated: 2026-05-22*

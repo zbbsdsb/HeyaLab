@@ -266,6 +266,8 @@ Step 8: Persistence
 ```
 User
   ↓ (natural language intent)
+Ember (Creative Seeds)
+  ↓ (feeds intent when ready)
 Hey (Companion)
   ↓ (coordinates, witnesses, guides)
 Hearth (Creation Space)
@@ -273,15 +275,23 @@ Hearth (Creation Space)
   ├── Agents (invent components)
   ├── Components (evolve through use)
   └── State (shared memory)
-  ↓
-Artifacts (emergent creations)
+  ↓ (produces artifacts)
+Mantle (Artifact Home)
+  ↑ (observed by)
+Veil (Perception Layer)
+  ↑ (connects multiple instances)
+Grove (Shared Space)
 ```
 
-**Hey** is the user's companion in the Hearth ecosystem.
 **Hearth** is the space where creation happens.
-**Agents** are the evolving life within that space.
+**Hey** is the user's companion in the Hearth ecosystem.
+**Mantle** is the home for everything Hearth produces.
+**Veil** is the lens through which users perceive the ecosystem.
+**Ember** is where creative ideas live before becoming Hearth projects.
+**Grove** is where multiple ecosystems connect and collaborate.
+**Agents** are the evolving life within Hearth.
 
 ---
 
-*Last Updated: 2026-05-18*
+*Last Updated: 2026-05-22*
 *Status: Core Philosophy Defined*

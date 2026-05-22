@@ -71,6 +71,10 @@ graph TD
 - [x] API reference
 - [x] Vision document
 - [x] Decision records (ADR)
+- [x] Mantle design document (artifact home)
+- [x] Veil design document (perception layer)
+- [x] Ember design document (creative seeds)
+- [x] Grove design document (shared space)
 - [x] Update remaining docs for consistency
 
 **Output**: See [ARCHITECTURE/](./ARCHITECTURE/) for all architecture documents.
@@ -147,7 +151,7 @@ graph TD
 
 **Status**: Future
 
-**Goal**: Build the minimum viable Heya ecosystem (Hearth + Hey).
+**Goal**: Build the minimum viable Heya ecosystem (Hearth + Hey + Mantle + Ember).
 
 **Scope** (to be defined in Phase 3):
 - Conversational Hearth space activation
@@ -180,6 +184,7 @@ See [DECISIONS/](./DECISIONS/) for the full decision log.
 | 004 | Intent-driven factory design | 2026-05-15 | Accepted |
 | 005 | Universal product scope | 2026-05-15 | Accepted |
 | 007 | Hearth ecosystem paradigm (supersedes ADR-001) | 2026-05-22 | Accepted |
+| 008 | Four complementary components (Mantle, Veil, Ember, Grove) | 2026-05-22 | Accepted |
 
 ---
 
