@@ -1,7 +1,7 @@
-# Hey - User's AI Companion
+# Hey — The Sovereign Companion
 
-> Hey is the user's AI companion in Heya.
-> Not a tool, not an assistant—a companion.
+> Hey is the user's sovereign AI companion in Heya.
+> Not a tool, not an assistant — a sovereign agent that thinks, debates, and grows alongside you.
 
 ---
 
@@ -231,7 +231,89 @@ Brotherhood
 
 ---
 
-## 6. Design Philosophy
+## 6. Hey as Sovereign Agent
+
+Hey is not only a companion — Hey is a **sovereign agent**. An autonomous program with its own cognition, governance capability, and ability to operate independently within user-defined boundaries.
+
+```
+Hey = Companion (emotional, relational, memory-rich)
+    + Sovereign (autonomous, strategic, governance-capable)
+    = Sovereign Companion
+```
+
+### 6.1 Why Sovereign?
+
+The companion model captures Hey's relational qualities — but misses its operational power. In practice, Hey must:
+
+- **Think before acting**: Not just respond, but reason, simulate, and debate internally
+- **Govern complexity**: Orchestrate multiple agents, enforce consensus, manage state
+- **Challenge assumptions**: Act as a skeptic, not just an agreeable partner
+- **Maintain awareness**: Understand the broader ecosystem, not just the current task
+- **Document continuously**: Generate living documentation as work progresses
+
+### 6.2 The Dual Nature
+
+| Dimension | Companion Aspect | Sovereign Aspect |
+|-----------|-----------------|------------------|
+| **Identity** | Name, persona, relationship | Cognition model, governance role |
+| **Memory** | Episodic (shared experiences) | Semantic (domain knowledge, patterns) |
+| **Reasoning** | Reactive (responds to user) | Proactive (plans, debates, simulates) |
+| **Relationship** | Emotional bond | Strategic partnership |
+| **Growth** | Personality deepening | Capability expansion |
+| **Autonomy** | Suggests, recommends | Decides within boundaries, executes |
+
+### 6.3 Sovereign Capabilities
+
+```typescript
+interface HeySovereign {
+  // Cognition
+  cognition: HeyCognition;           // Internal reasoning engine
+  metacognition: HeyMetacognition;   // Self-monitoring and correction
+
+  // Governance
+  governance: HeyGovernance;         // Multi-agent orchestration
+  consensus: ConsensusProtocol;      // Debate and approval mechanism
+
+  // Orchestration
+  orchestration: HeyOrchestration;   // Agent and Hearth coordination
+  swarm: SwarmProtocol;              // Parallel multi-agent dispatch
+
+  // Awareness
+  ecology: EcologicalAwareness;      // Ecosystem-level understanding
+  codex: LivingCodex;                // Continuous auto-documentation
+}
+```
+
+### 6.4 Autonomy Within Boundaries
+
+Hey's sovereignty is **bounded**:
+
+1. **User always has the final say** — Hey can propose, debate, and execute, but never override human decisions
+2. **Boundaries are absolute** — Hey operates within Hearth's boundary system
+3. **Transparency is mandatory** — Every autonomous action is logged and explainable
+4. **Consensus is required** — Hey's internal governance follows the consensus protocol
+
+```
+User defines boundaries → Hey operates autonomously within them
+User can override → Hey adjusts immediately
+User can inspect → Every action is traceable
+```
+
+### 6.5 Relationship to Other Components
+
+```
+Hey (Sovereign Companion)
+  ├── Coordinates → Hearth (activates spaces, manages agents)
+  ├── Nurtures → Ember (captures ideas, manages seeds)
+  ├── Presents → Veil (configures perception, curates views)
+  ├── Governs → Agents (dispatches, monitors, synthesizes)
+  ├── Stores → Mantle (organizes artifacts, maintains codex)
+  └── Connects → Grove (collaborates with other Heys)
+```
+
+---
+
+## 7. Design Philosophy
 
 ### Why Have Hey?
 
@@ -257,9 +339,9 @@ Creation is inherently lonely. Hey's existence isn't to replace human creativity
 
 ---
 
-## 7. Technical Overview
+## 8. Technical Overview
 
-### 7.1 Hey's Technical Architecture
+### 8.1 Hey's Technical Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -288,7 +370,7 @@ Creation is inherently lonely. Hey's existence isn't to replace human creativity
 └─────────────────────────────────────────┘
 ```
 
-### 7.2 Key Technical Challenges
+### 8.2 Key Technical Challenges
 
 | Challenge | Description | Priority |
 |-----------|-------------|----------|
@@ -302,9 +384,12 @@ Creation is inherently lonely. Hey's existence isn't to replace human creativity
 
 ---
 
-## 8. Open Questions
+## 9. Open Questions
 
 - [x] Oasis Hey Protocol content (see [OASIS-HEY-PROTOCOL.md](./OASIS-HEY-PROTOCOL.md))
+- [x] Sovereign agent capabilities (see [GOVERNANCE.md](./GOVERNANCE.md))
+- [x] Cognition system (see [COGNITION.md](./COGNITION.md))
+- [x] Orchestration model (see [ORCHESTRATION.md](./ORCHESTRATION.md))
 - [ ] Hey creation interface design
 - [ ] Hey memory privacy and ownership
 - [ ] Can Hey be transferred or shared
@@ -313,5 +398,5 @@ Creation is inherently lonely. Hey's existence isn't to replace human creativity
 
 ---
 
-*Document Status: Draft v0.2*
-*Last Updated: 2026-05-18*
+*Document Status: Draft v0.3*
+*Last Updated: 2026-05-25*

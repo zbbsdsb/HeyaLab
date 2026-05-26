@@ -58,7 +58,7 @@ Hey ──presents──► Veil
 | Component | Role | Analogy |
 |-----------|------|---------|
 | **Hearth** | Core creation space | The hearth fire where creation happens |
-| **Hey** | User's AI companion | Your partner sitting by the hearth |
+| **Hey** | Sovereign companion | Your autonomous AI partner who thinks, debates, and acts on your behalf |
 | **Mantle** | Artifact home | The shelf above the hearth where creations are displayed |
 | **Veil** | Perception layer | The shimmering air that reveals what matters |
 | **Ember** | Creative seeds | Glowing remnants with potential to ignite new creations |
@@ -109,9 +109,12 @@ HeyaCore consists of two parts:
 | [hearth/EVOLUTION.md](./hearth/EVOLUTION.md) | Component fitness and selection | ✅ Complete |
 | [hearth/STATE.md](./hearth/STATE.md) | Shared state and memory | ✅ Complete |
 | [hearth/INTERFACES.md](./hearth/INTERFACES.md) | User, Hey, and Agent interfaces | ✅ Complete |
-| [hey/](./hey/) | Hey — User's AI companion | 🔄 In Design |
+| [hey/](./hey/) | Hey — Sovereign companion | ✅ Core Complete |
 | [hey/OASIS-HEY-PROTOCOL.md](./hey/OASIS-HEY-PROTOCOL.md) | The covenant between user and Hey | ✅ Complete |
 | [hey/MEMORY-SYSTEM.md](./hey/MEMORY-SYSTEM.md) | Hey's graph-routed memory system | ✅ Complete |
+| [hey/GOVERNANCE.md](./hey/GOVERNANCE.md) | Multi-agent governance (Board of Directors) | ✅ Complete |
+| [hey/COGNITION.md](./hey/COGNITION.md) | Internal cognition architecture | ✅ Complete |
+| [hey/ORCHESTRATION.md](./hey/ORCHESTRATION.md) | Agent and Hearth orchestration | ✅ Complete |
 | [mantle/](./mantle/) | Mantle — The artifact home | ✅ Complete |
 | [veil/](./veil/) | Veil — The perception layer | ✅ Complete |
 | [ember/](./ember/) | Ember — The creative seeds | ✅ Complete |
@@ -129,7 +132,7 @@ HeyaCore consists of two parts:
 ## Design Principles
 
 1. **Hearth First**: The core creation capability is paramount
-2. **Companion Layer**: Hey adds relationship and continuity, but is optional
+2. **Sovereign Companion Layer**: Hey provides autonomous governance, strategic reasoning, and emotional partnership — thinking, debating, and acting on the user's behalf within boundaries
 3. **Artifact Native**: Mantle gives creations a first-class home
 4. **Perception Adaptive**: Veil reveals what matters, hides what doesn't
 5. **Seed Before Fire**: Ember captures ideas before they become projects

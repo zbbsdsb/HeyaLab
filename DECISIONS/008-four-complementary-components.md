@@ -99,6 +99,20 @@ Four new architectural components are introduced, each named to extend the Heart
 
 **Relationship to Hearth**: Grove provides the social context in which individual Hearths operate. It does not modify how Hearth works internally — it connects multiple Hearth instances and their Mantles.
 
+### Hey: The Sovereign Companion
+
+While ADR-007 established Hey as the user's companion, the introduction of these four components reveals that Hey's role must expand. Hey is not merely a companion — Hey is a **sovereign agent** that governs the entire ecosystem on behalf of the user.
+
+**Dual nature**:
+- **Companion**: Emotional partner, memory keeper, relationship builder (ADR-007)
+- **Sovereign**: Autonomous governance, multi-agent orchestration, strategic reasoning (this ADR)
+
+**Governance model**: Hey instantiates an internal "Board of Directors" — Strategist, Skeptic, Executor, Chronicler — that debates before acting. This enables Hey to operate with bounded autonomy: thinking, critiquing, and executing within user-defined boundaries.
+
+**Orchestration role**: Hey is the conductor of the ecosystem. It dispatches Hearth agents, manages Hearth spaces, nurtures Ember seeds, configures Veil presentations, and coordinates Grove collaborations.
+
+**Design documents**: [GOVERNANCE.md](../heya2u/hey/GOVERNANCE.md), [COGNITION.md](../heya2u/hey/COGNITION.md), [ORCHESTRATION.md](../heya2u/hey/ORCHESTRATION.md)
+
 ## Rationale
 
 ### Why four separate components, not sub-features?

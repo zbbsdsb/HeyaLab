@@ -6,7 +6,7 @@
 
 ## What is Heya?
 
-Heya is a **creation ecosystem** — a space where AI agents invent capabilities within boundaries, a companion (Hey) grows alongside you, and every creation finds its home (Mantle). Humans guide the critical decisions.
+Heya is a **creation ecosystem** — a space where AI agents invent capabilities within boundaries, a sovereign companion (Hey) grows alongside you, and every creation finds its home (Mantle). Humans guide the critical decisions.
 
 Heya is not:
 - A chatbot
@@ -30,9 +30,11 @@ The AI does the heavy lifting — reasoning, generating, verifying, remembering.
 
 **The AI never silently makes a high-stakes decision.**
 
-### 2. AI Is the Hearth
+### 2. AI Is the Hearth (and the Sovereign Companion)
 
 The Hearth is a creation space where agents invent components on demand and capabilities evolve through use. It assembles different capability combinations for different tasks. The same Hearth can nurture a game, a marketing strategy, or a scientific simulation.
+
+Hey is the sovereign companion that governs this ecosystem. Hey doesn't just respond — Hey thinks (through internal debate between Strategist, Skeptic, Executor, and Chronicler), orchestrates (dispatching agents, managing Hearth spaces), and learns (through layered cognition with episodic, semantic, and ecological memory). The ecosystem doesn't just execute commands — it reasons, debates, and decides before acting.
 
 ### 3. Intent-Driven Design
 
@@ -84,9 +86,9 @@ The ecosystem's internal complexity is enormous. Veil adapts to each user, revea
               ↑ feeds intent          ↑ guided by          ↑ observes
 ┌──────────────────────┐  ┌──────────────────────┐  ┌──────────────────────┐
 │       EMBER          │  │         HEY          │  │        VEIL          │
-│  Creative seeds that │  │  Your AI companion   │  │  Perception layer    │
-│  grow into projects  │  │  that grows with you │  │  that reveals what   │
-│                      │  │                      │  │  matters to you      │
+│  Creative seeds that │  │  Your sovereign      │  │  Perception layer    │
+│  grow into projects  │  │  companion who        │  │  that reveals what   │
+│                      │  │  thinks and grows     │  │  matters to you      │
 └──────────────────────┘  └──────────────────────┘  └──────────────────────┘
                                                            ↑ connects
                                               ┌──────────────────────┐
@@ -114,7 +116,7 @@ Existing AI tools have fundamental limitations:
 | Dify / FastGPT | Manual workflow config, no AI-driven design |
 | Devin | Autonomous, minimal human oversight, code-only |
 
-Heya is the only system where AI **invents capabilities** within a living ecosystem, creates **any type of product** through emergence, maintains a **companion** that grows with you through structured human-AI partnership, and provides a **home for every creation** with full lineage and evolution.
+Heya is the only system where AI **invents capabilities** within a living ecosystem, creates **any type of product** through emergence, maintains a **sovereign companion** that grows with you through structured human-AI partnership and autonomous governance, and provides a **home for every creation** with full lineage and evolution.
 
 ---
 
